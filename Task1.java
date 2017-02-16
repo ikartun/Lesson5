@@ -1,4 +1,4 @@
-package by.epam.tr.lesson5;
+锘縫ackage by.epam.tr.lesson5;
 
 import java.util.GregorianCalendar;
 import java.util.HashMap;
@@ -18,9 +18,9 @@ public class Task1 {
 	}
  
 	public static void main(String[] args) {
-		System.out.print("埋 享 买 佯 昨 向 厌    ");
-		System.out.print("埋 享 买 佯 昨 向 厌    ");
-		System.out.println("埋 享 买 佯 昨 向 厌");
+		System.out.print("袙褋 袩薪 袙褌 小褉 效褌 袩褌 小斜    ");
+		System.out.print("袙褋 袩薪 袙褌 小褉 效褌 袩褌 小斜    ");
+		System.out.println("袙褋 袩薪 袙褌 小褉 效褌 袩褌 小斜");
 		for (int i = Calendar.JANUARY; i <= Calendar.DECEMBER;) {
 			if (isMonthLastPrintedDayFull()) {
 				break;
@@ -28,9 +28,9 @@ public class Task1 {
 			if (isMonthLastPrintedDay(i)) {
 				if (i != Calendar.OCTOBER) {
 					System.out.println();
-					System.out.print("埋 享 买 佯 昨 向 厌    ");
-					System.out.print("埋 享 买 佯 昨 向 厌    ");
-					System.out.println("埋 享 买 佯 昨 向 厌");
+					System.out.print("袙褋 袩薪 袙褌 小褉 效褌 袩褌 小斜    ");
+					System.out.print("袙褋 袩薪 袙褌 小褉 效褌 袩褌 小斜    ");
+					System.out.println("袙褋 袩薪 袙褌 小褉 效褌 袩褌 小斜");
 					i += 3;
 				}
 			}

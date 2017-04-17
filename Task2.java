@@ -3,6 +3,7 @@ package by.epam.tr.lesson5;
 import java.util.Arrays;
 import java.util.Comparator;
 
+// не стоит смешивать в один файл и Note, и NoteBook и код, который демонстрирует работу с этими классами
 public class Task2 { //Task2 - it's a NoteBook
 	private Note[] notes;	
 
